@@ -13,7 +13,7 @@ opcao = input ("Escolha uma operação: ")
 if opcao == "1":
    print("Resultado: ", n1 + n2)
 elif opcao == "2":
-   print("Resultado: ", n1 = n2)
+   print("Resultado: ", n1 - n2)
 elif opcao == "3":
    print("Resultado: ", n1 * n2)
 elif opcao == "4":
