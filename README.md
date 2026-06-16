@@ -1,24 +1,27 @@
-  GNU nano 8.7.1                                            read.me                                                     # Projeto Calculadora
+# Projeto Calculadora
 
 ## Descrição
 
-Projeto de calculadora simples desenvolvido para praticar Linux, Shell Script e Python
+Projeto de calculadora simples desenvolvido para praticar Linux, Shell Script e Python.
 
 ## Como executar o arquivo .sh
 
-1. Abra o Terminal.
+1. Abra o terminal.
 2. Navegue até a pasta do projeto.
-3. Execute:
+3. Execute o comando:
 
+```bash
 ./calculadora.sh
+```
 
 ## Explicação do código Python
 
-Ao executar o código, o mesmo solicita dois números ao usuário atráves da função input().
+Ao executar o código, o programa solicita dois números ao usuário através da função `input()`.
 
-Após receber os valores do usuário, realiza a operação matemática escolhida e exibe o resultado utilizando a função pri>
+Após receber os valores, realiza a operação matemática escolhida pelo usuário e exibe o resultado utilizando a função `print()`.
+
 ## Arquivos
 
-- calculadora.py: Código principal da calculadora.
-- calculadora.sh: Script executável.
-- comandos.txt: Comandos utilizados durante a atividade.
+* `calculadora.py`: código principal da calculadora.
+* `calculadora.sh`: script executável.
+* `comandos.txt`: comandos utilizados durante a atividade.
