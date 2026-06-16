@@ -1,39 +1,105 @@
-# Projeto Calculadora
+# 🧮 Projeto Calculadora
 
-## Sobre
+## Sobre o projeto
 
-Este projeto foi desenvolvido como atividade prática para aplicar conhecimentos de Linux, Shell Script, Python e GitHub.
+Este projeto foi desenvolvido como atividade prática do curso de Analista de Dados da EBAC.
 
-A calculadora recebe dois números informados pelo usuário e realiza a operação matemática escolhida, exibindo o resultado na tela.
+A aplicação consiste em uma calculadora simples criada em Python, capaz de realizar operações matemáticas básicas através da interação com o usuário pelo terminal.
 
-## Arquivos do projeto
+O objetivo do projeto foi praticar conceitos de programação, utilização do Linux, execução de scripts e versionamento de código com GitHub.
 
-* `calculadora.py` - código principal da calculadora.
-* `calculadora.sh` - arquivo executável utilizado para iniciar o programa.
-* `comandos.txt` - comandos utilizados durante o desenvolvimento da atividade.
+---
+
+## Tecnologias utilizadas
+
+* Python 3
+* Shell Script (Bash)
+* Linux Ubuntu
+* Git
+* GitHub
+
+---
+
+## Funcionalidades
+
+A calculadora realiza as seguintes operações:
+
+* Soma
+* Subtração
+* Multiplicação
+* Divisão
+
+Também possui tratamento para divisão por zero.
+
+---
 
 ## Como executar
 
-Primeiro, dê permissão de execução ao arquivo:
+1. Abra o terminal.
+2. Acesse a pasta do projeto.
+3. Dê permissão de execução ao arquivo:
 
 ```bash
 chmod 744 calculadora.sh
 ```
 
-Depois, execute o script:
+4. Execute o programa:
 
 ```bash
 ./calculadora.sh
 ```
 
-## Funcionamento
+---
 
-Ao iniciar o programa, o usuário informa dois números.
+## Exemplo de utilização
 
-Em seguida, escolhe qual operação deseja realizar. O programa processa os dados informados e apresenta o resultado correspondente.
+```text
+=== CALCULADORA ===
 
-Durante o desenvolvimento foram utilizados conceitos básicos de programação, como entrada de dados, variáveis, operações matemáticas e estruturas condicionais.
+Digite o primeiro número: 10
+Digite o segundo número: 5
 
-## Objetivo
+Escolha uma operação:
+1 - Soma
+2 - Subtração
+3 - Multiplicação
+4 - Divisão
 
-O objetivo deste projeto é praticar a criação e execução de scripts, o uso de Python para resolução de problemas simples e o versionamento de arquivos utilizando GitHub.
+Opção: 3
+
+Resultado: 50
+```
+
+---
+
+## Estrutura do projeto
+
+```text
+projetocalculadora/
+├── calculadora.py
+├── calculadora.sh
+├── comandos.txt
+└── README.md
+```
+
+---
+
+## Aprendizados
+
+Durante o desenvolvimento deste projeto foram praticados conceitos como:
+
+* Entrada e saída de dados
+* Estruturas condicionais
+* Operações matemáticas
+* Execução de scripts no Linux
+* Controle de versão com Git
+* Publicação de projetos no GitHub
+
+---
+
+## Autor
+
+Eduardo Otávio
+
+Projeto desenvolvido como atividade prática do curso de Analista de Dados da EBAC.
+
