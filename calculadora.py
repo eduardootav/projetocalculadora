@@ -11,6 +11,20 @@ print("4 - Divisão")
 
 opcao = input("\nOpção: ")
 
+def soma(a, b):
+    return a + b
+
+def subtracao(a, b):
+    return a - b
+
+def multiplicacao(a, b):
+    return a * b
+
+def divisao (a, b):
+    if b == 0:
+        return "Erro: divisão por zero."
+        return a / b
+
 if opcao == "1":
     print(f"\nResultado: {n1 + n2}")
 
@@ -28,3 +42,11 @@ elif opcao == "4":
 
 else:
     print("\nOpção inválida.")
+
+while True:
+    # Calculadora
+
+    continuar = input("\nDeseja fazer outro cálculo? (s/n): ")
+    if continuar.lower() != "s":
+        print("Programa Encerrado.")
+        break
