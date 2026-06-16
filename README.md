@@ -1,27 +1,39 @@
 # Projeto Calculadora
 
-## Descrição
+## Sobre
 
-Projeto de calculadora simples desenvolvido para praticar Linux, Shell Script e Python.
+Este projeto foi desenvolvido como atividade prática para aplicar conhecimentos de Linux, Shell Script, Python e GitHub.
 
-## Como executar o arquivo .sh
+A calculadora recebe dois números informados pelo usuário e realiza a operação matemática escolhida, exibindo o resultado na tela.
 
-1. Abra o terminal.
-2. Navegue até a pasta do projeto.
-3. Execute o comando:
+## Arquivos do projeto
+
+* `calculadora.py` - código principal da calculadora.
+* `calculadora.sh` - arquivo executável utilizado para iniciar o programa.
+* `comandos.txt` - comandos utilizados durante o desenvolvimento da atividade.
+
+## Como executar
+
+Primeiro, dê permissão de execução ao arquivo:
+
+```bash
+chmod 744 calculadora.sh
+```
+
+Depois, execute o script:
 
 ```bash
 ./calculadora.sh
 ```
 
-## Explicação do código Python
+## Funcionamento
 
-Ao executar o código, o programa solicita dois números ao usuário através da função `input()`.
+Ao iniciar o programa, o usuário informa dois números.
 
-Após receber os valores, realiza a operação matemática escolhida pelo usuário e exibe o resultado utilizando a função `print()`.
+Em seguida, escolhe qual operação deseja realizar. O programa processa os dados informados e apresenta o resultado correspondente.
 
-## Arquivos
+Durante o desenvolvimento foram utilizados conceitos básicos de programação, como entrada de dados, variáveis, operações matemáticas e estruturas condicionais.
 
-* `calculadora.py`: código principal da calculadora.
-* `calculadora.sh`: script executável.
-* `comandos.txt`: comandos utilizados durante a atividade.
+## Objetivo
+
+O objetivo deste projeto é praticar a criação e execução de scripts, o uso de Python para resolução de problemas simples e o versionamento de arquivos utilizando GitHub.
